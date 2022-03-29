@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --pink-color: #f2726a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #00853e, #50c878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    color: white;
+    
+}
+
+.the {
+    background: #242628;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.the_img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid var(--pink-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: translateY(25px);
+    transition: 0.5s;
+}
+
+.the h2 {
+    margin-top: 35px;
+}
+
+.the p {
+    color: var(--pink-color);
+}
+
+.the_xahoi {
+    margin: 30px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.the_xahoi a {
+    color: white;
+    
+    font-size: 20px;
+}
+
+.the_xahoi a:hover {
+    color: var(--pink-color);
+}
+
+.the button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--pink-color);
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.the button:hover {
+    background: var(--pink-color);
+}
+
+.the_img:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: unset;
+    transform: unset;
+    border: none;
+}
+
+
+
